@@ -23,6 +23,15 @@
     width: 90%;
 }
 
+@media screen and (max-width: 768px) {
+  .column{
+      width: auto;
+      align-items: center;
+      padding: 50px;
+    }
+}
+    
+
 .row:after {
     content: "";
     display: table;
@@ -362,7 +371,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc .btn,
-  .fh5co-cover .display-tc .btn {
+  .fh5co-cover .display-tc .btn, {
+      
     width: 80%;
     margin: 0 auto;
   }
@@ -617,6 +627,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   #fh5co-hero .flexslider .slider-text-bg .desc p {
     display: none;
+    width: 100%;
   }
 }
 #fh5co-hero .flexslider .slider-text,
